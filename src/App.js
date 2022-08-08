@@ -197,7 +197,7 @@ function Cards() {
                         <div className="pl-2">Saparǵa</div>
                     </Link>
                 </nav>
-                <div className="flex flex-row justify-center flex-wrap">
+                <div className="cards-div flex flex-row justify-center flex-wrap">
                     <div className="almaty-card">
                         <Card
                             sx={{ maxWidth: 200 }}
