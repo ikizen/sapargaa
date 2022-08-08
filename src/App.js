@@ -41,8 +41,8 @@ import photoAqtau from "./img/aqtau.jpg";
 import axios from "axios";
 import { ClassNames } from "@emotion/react";
 
-// const BACKEND_URL = "http://localhost:8080/hotel";
-const BACKEND_URL = "https://saparga-back.vercel.app/hotel";
+const BACKEND_URL = "http://localhost:8080/hotel";
+// const BACKEND_URL = "https://saparga-back.vercel.app/hotel";
 
 // dialog card Material UI STARTS HERE
 // это
@@ -103,9 +103,21 @@ function Home() {
             <div className="homePage flex flex-col items-center	justify-center">
                 <h1 className=" ">Saparǵa</h1>
                 <Link to="/cards" className="go-to-cards flex flex-row">
-                    <div className="pr-1 sm:text-xs">baǵyt</div>
-
-                    <div className="pl-1">tańdańyz</div>
+                    <div className="pr-1 sm:text-xs flex items-center">
+                        bagyt tańdańyz
+                    </div>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
                 </Link>
             </div>
         </>
