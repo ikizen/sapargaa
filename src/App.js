@@ -103,7 +103,7 @@ function Home() {
             <div className="homePage flex flex-col items-center	justify-center">
                 <h1 className=" ">Saparǵa</h1>
                 <Link to="/cards" className="go-to-cards flex flex-row">
-                    <div className="pr-1 sm:text-xs flex items-center">
+                    <div className="home-text pr-1 sm:text-xs flex items-center">
                         bagyt tańdańyz
                     </div>
                     {/* <svg
@@ -194,15 +194,29 @@ function Cards() {
             <div className="cardPage">
                 <nav className="card-page-nav flex-1 flex justify-center pt-2 pb-2">
                     <Link className="flex flex-row" to="/">
-                        <div className="pl-2">Saparǵa</div>
+                        <div className="flex items-center">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-7 w-7"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                        </div>
+                        <div className="header">Saparǵa</div>
                     </Link>
                 </nav>
                 <div className="cards-div flex flex-row justify-center flex-wrap">
-                    <div className="almaty-card">
+                    <div className="almaty-card card">
                         <Card
                             // sx={{ minWidth: 150, minHeight: 100 }}
                             onClick={handleClickOpen}
-                            className="card"
+                            // className="card"
                             elevation={6}
                             // onClickAway={handleClickAway}
                         >
