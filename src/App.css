@@ -36,8 +36,7 @@
        #131927 text
     */
     background-size: cover;
-    height: 100vh;
-    /* min-height: 100%; */
+    min-height: 100vh;
     width: 100vw;
     margin: 0;
 }
