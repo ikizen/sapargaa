@@ -200,7 +200,7 @@ function Cards() {
                 <div className="cards-div flex flex-row justify-center flex-wrap">
                     <div className="almaty-card">
                         <Card
-                            sx={{ maxWidth: 250 }}
+                            sx={{ maxWidth: 250, maxHeight: 300 }}
                             onClick={handleClickOpen}
                             className="card"
                             elevation={6}
