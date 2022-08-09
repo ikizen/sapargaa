@@ -200,7 +200,7 @@ function Cards() {
                 <div className="cards-div flex flex-row justify-center flex-wrap">
                     <div className="almaty-card">
                         <Card
-                            sx={{ maxWidth: 250, maxHeight: 300 }}
+                            // sx={{ minWidth: 150, minHeight: 100 }}
                             onClick={handleClickOpen}
                             className="card"
                             elevation={6}
@@ -209,7 +209,7 @@ function Cards() {
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
-                                    height="70"
+                                    height="60"
                                     image={photoAlmaty}
                                     alt="Almaty Photo"
                                 />
