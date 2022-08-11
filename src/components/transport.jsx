@@ -52,17 +52,13 @@ export const TransportComponent = ({ handleChange, transport }) => {
                     <ToggleButton value="800" sx={{ color: "#494c57" }}>
                         Avtobýs
                     </ToggleButton>
-                    <ToggleButton value={parsedTaxi} sx={{ color: "#494c57" }}>
+                    <ToggleButton value="4400" sx={{ color: "#494c57" }}>
                         Taksı
-                    </ToggleButton>
-                    <ToggleButton value="3000" sx={{ color: "#494c57" }}>
-                        Avtobýs + Taksı
                     </ToggleButton>
                     <ToggleButton value="10500" sx={{ color: "#494c57" }}>
                         Anytime
                     </ToggleButton>
                     {/* 10.500 тенге в день  */}
-                    {/* <ToggleButton value="5000">Аренда машины</ToggleButton> */}
                 </ToggleButtonGroup>
             </Box>
         </>

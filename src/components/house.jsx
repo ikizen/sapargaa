@@ -44,7 +44,7 @@ export const HouseComponent = ({ handleChange, house }) => {
                     <ToggleButton value="0" sx={{ color: "#494c57" }}>
                         Dostarymda
                     </ToggleButton>
-                    <ToggleButton value={parsedHotel} sx={{ color: "#494c57" }}>
+                    <ToggleButton value="27000" sx={{ color: "#494c57" }}>
                         Qonaq úıde
                     </ToggleButton>
                 </ToggleButtonGroup>
