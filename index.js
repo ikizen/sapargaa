@@ -7,8 +7,7 @@ import { connectToCluster } from "./db.js";
 
 const app = express();
 const port = 8080;
-const urlHotel =
-    "https://www.tripadvisor.com/Hotels-g298251-Almaty-Hotels.html";
+const urlHotel = "https://www.tripadvisor.ru/Hotels-g298251-Almaty-Hotels.html";
 
 const urlTaxi =
     "https://www.numbeo.com/taxi-fare/in/Almaty?displayCurrency=KZT";
