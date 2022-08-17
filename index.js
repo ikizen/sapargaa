@@ -82,6 +82,9 @@ cron.schedule("* */1 * * * *", function () {
                         .children("div:nth-child(2)")
                         .html();
 
+                    console.log(marMay);
+                    console.log(sepNov);
+
                     const reg = /\d+/g;
                     let result1 = sepNov.match(reg);
                     let result2 = marMay.match(reg);
