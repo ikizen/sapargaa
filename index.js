@@ -115,14 +115,14 @@ cron.schedule("* */1 * * * *", function () {
                         .first()
                         .find("tbody")
                         .children(".tr_highlighted")
-                        // .children("td:nth-child(2)")
+                        .children("td:nth-child(2)")
                         .html();
-                    // console.log(taxi);
-                    const reg = /\d+/g;
-                    let resultTaxi = taxi.match(reg);
-                    const transportCount = parseInt(
-                        resultTaxi[0] + resultTaxi[1]
-                    );
+                    console.log(taxi);
+                    // const reg = /\d+/g;
+                    // let resultTaxi = taxi.match(reg);
+                    // const transportCount = parseInt(
+                    //     resultTaxi[0] + resultTaxi[1]
+                    // );
                     console.log(transportCount);
 
                     // If transport count exist - update it. If not - create it.
