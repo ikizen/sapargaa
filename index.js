@@ -10,7 +10,8 @@ const port = 8080;
 // const urlHotel =
 // "https://www.tripadvisor.com/Hotels-g298251-Almaty-Hotels.html";
 
-const urlTaxi = "https://www.numbeo.com/taxi-fare/in/Almaty";
+const urlTaxi =
+    "https://www.numbeo.com/taxi-fare/in/Almaty?displayCurrency=KZT";
 
 // const urlAnytime = "https://anytime.kz/rates.html";
 
