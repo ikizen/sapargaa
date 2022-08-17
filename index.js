@@ -115,7 +115,7 @@ cron.schedule("* */1 * * * *", function () {
                         .first()
                         .find("tbody")
                         .children(".tr_highlighted")
-                        .children("td:nth-child(2)")
+                        // .children("td:nth-child(2)")
                         .html();
                     console.log(taxi);
                     // const reg = /\d+/g;
