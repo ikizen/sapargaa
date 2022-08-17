@@ -118,7 +118,7 @@ cron.schedule("* */1 * * * *", function () {
                         .children(".tr_highlighted")
                         .children("td:nth-child(2)")
                         .html();
-                    console.log(taxi);
+                    // console.log(taxi);
                     const reg = /\d+/g;
                     let resultTaxi = taxi.match(reg);
                     const transportCount = parseInt(
